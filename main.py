@@ -8,3 +8,8 @@ print('Guess the number between 1 and 25')
 guess = input()
 userGuess = int(guess)
 
+# Compare random number with user's guess.
+if guess == randomNumber:
+    print('That is the correct guess!')
+if guess != randomNumber:
+    print("Sorry that is incorrect. The number was " + str(randomNumber))
